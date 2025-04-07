@@ -1,4 +1,5 @@
-Comando
+Comando ctrl + alt + t
+
 ls Listagem de arquivos e pastas
 cd PASTA Navega até a pasta desejada
 
@@ -32,11 +33,7 @@ desejamos criar toda a estrutura de pastas caso ela ainda não exista
 
 
 
-
-
-
-
-
+/var/cache/apt/archives
 
 
 
