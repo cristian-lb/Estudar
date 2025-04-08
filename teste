@@ -29,7 +29,40 @@ Para conseguir criar todo o caminho sem precisar criar uma
 pasta por vez, podemos utilizar o parâmetro -p do comando mkdir para indicar que
 desejamos criar toda a estrutura de pastas caso ela ainda não exista
 
-
+  -a, --append                  anexa o usuário para os GRUPOS suplementares
+                                mencionados pela opção -G sem remove-lo de
+                                outros grupos
+  -b, --badname                 allow bad names
+  -c, --comment COMENTÁRIO      novo valor do campo GECOS
+  -d, --home DIR_PESSOAL        novo diretório de login para a nova conta de
+                                usuário
+  -e, --expiredate DATA_EXPIRA  define data de expiração de conta para
+                                DATA_EXPIRA
+  -f, --inactive INATIVO        define inatividade de senha após expiração
+                                para INATIVO
+  -g, --gid GRUPO               forçar usar GRUPO como novo grupo primário
+  -G, --groups GRUPOS           nova lista de GRUPOS suplementares
+  -h, --help                    mostrar esta mensagem de ajuda e sair
+  -l, --login LOGIN             novo valor do nome de login
+  -L, --lock                    trava a conta de usuário
+  -m, --move-home               move o conteúdo do diretório pessoal para
+                                a novo localização (use somente com -d)
+  -o, --non-unique              permitir usar UID duplicados (não-únicos)
+  -p, --password SENHA          usar senha criptografada para a nova senha
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -r, --remove                  remove the user from only the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -R, --root CHROOT_DIR         diretório a ser transformado em root
+  -s, --shell SHELL             novo shell de login para a conta de usuário
+  -u, --uid UID                 novo UID para a conta de usuário
+  -U, --unlock                  destravar a conta de usuário
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user USUÁRIO    novo mapeamento de usuário SELinux para a conta
+                                de usuário
 
 
 
